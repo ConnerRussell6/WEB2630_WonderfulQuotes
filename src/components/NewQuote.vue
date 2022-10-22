@@ -22,6 +22,7 @@ export default {
   data () {
     return {
       // ToDo: Create a data object called quote that is se to an empty string
+      quote 
     };
   },
   methods: {

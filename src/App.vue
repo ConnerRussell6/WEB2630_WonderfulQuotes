@@ -25,8 +25,11 @@ export default {
     return {
       // ToDo: Create an array called quotes
       // Have at least one string by default
-
+      quotes: [
+        'default'
+      ],
       // ToDo: Create maxQuotes that is set to 10
+      maxQuotes
     }
   },
   methods: {
@@ -34,12 +37,22 @@ export default {
     // This method will check if the quotes length is greater than or equal to the maxQuotes
     // If it is return an alert telling the user to delete a quote
     // Outside of conditional, push quote (method parameter) to the quotes array
-
+    newQuote() {
+      if quotes.length() != maxQuotes{
+        
+      }
+    },
     // ToDo: Create a method called deleteQuote that takes in a parameter of index
     // This method will splice the quotes array by (index, 1)
+    deleteQuote(index) {
+      quotes.splice(index, 1)
+    }
   },
   components: {
     // ToDo: Initiate the QuoteGrid, NewQuote, and Header Components with Custom Selectors
+    'quote-grid': QuoteGrid,
+    'new-quote': NewQuote,
+    'app-header': Header
   }
 
 }
