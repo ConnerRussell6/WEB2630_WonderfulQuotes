@@ -19,7 +19,7 @@
 .panel {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
-  color: rgb(0, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 /*ToDo: Create a class quote that sets the cursor to a pointer*/
